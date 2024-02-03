@@ -710,9 +710,9 @@ class Brick(object):
             draw_rectangle(screen, self.x, self.y, self.w, self.h, self.color1)
             triangleH = self.h // 2
             if self.flip == "Heads":
-                name = "112"
+                name = "3011"
             else:
-                name = "122"
+                name = "2424"
             draw_text(screen, name, 50, self.x, self.y - 20, WHITE)
             shadowpoints = [(self.x - self.w / 2, self.y - self.h / 2),
                             (self.x - self.w / 2 + self.w, self.y - self.h / 2),
@@ -725,9 +725,9 @@ class Brick(object):
             draw_rectangle(screen, self.x, self.y, self.w, self.h, self.color1)
             triangleH = self.h // 2
             if self.flip == "Heads":
-                name = "KAMYAR"
+                name = "ZEENAT"
             else:
-                name = "GOOGLE"
+                name = "ARSHAD"
             draw_text(screen, name, 30, self.x, self.y - 10, WHITE)
             shadowpoints = [(self.x - self.w / 2, self.y - self.h / 2),
                             (self.x - self.w / 2 + self.w, self.y - self.h / 2),
